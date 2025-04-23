@@ -202,6 +202,5 @@ jobs:
           fi
 
           VERSION=$(cat ${{ env.OUTPUTFILE_ARM64 }}/RELEASE)
-          docker push uazo/cromite:$VERSION-$CROMITE_SHA
-          docker push uazo/cromite-build:$VERSION-$CROMITE_SHA
+
 
